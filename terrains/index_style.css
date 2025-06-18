@@ -50,7 +50,7 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .categories {
@@ -60,6 +60,7 @@ body {
 }
 
 .categories-content {
+  margin-left: 30px;
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -99,8 +100,8 @@ body {
 }
 
 section.facilities {
-    padding: 3rem 0;
-    margin: 0 10px ;
+  /* issue one */
+  margin: 10px 26px;
     background: #f8f9fa;
 }
 
@@ -171,7 +172,7 @@ section.facilities {
   
   .footer .container {
     max-width: 1200px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 0 2rem;
   }
   
@@ -188,7 +189,7 @@ section.facilities {
   
   .footer-column h4 {
     font-size: 1.2rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     color: white;
   }
   
@@ -219,9 +220,9 @@ section.facilities {
   
   .footer-bottom {
     text-align: center;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     border-top: 1px solid #444;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     font-size: 0.85rem;
     color: #a6a6a6;
   }
