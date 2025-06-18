@@ -12,13 +12,13 @@
             max-width: 600px;
             margin: 120px auto;
             padding: 30px;
-            background-color: #fff;
+            background-color:rgb(255, 255, 255);
             border-radius: 16px;
             box-shadow: 0 8px 20px rgba(139, 69, 19, 0.06);
         }
 
         .form-title {
-            color: #5c2810;
+            color:rgb(0, 0, 0);
             font-size: 24px;
             margin-bottom: 30px;
             text-align: center;
@@ -32,7 +32,7 @@
 
         label {
             display: block;
-            color: #8b4513;
+            color:rgb(0, 0, 0);
             margin-bottom: 8px;
             font-size: 15px;
             font-weight: 500;
@@ -41,16 +41,16 @@
         input, select {
             width: 100%;
             padding: 12px 15px;
-            border: 1px solid rgba(139, 69, 19, 0.2);
+            border: 1px solid rgba(0, 0, 0, 0.2);
             border-radius: 8px;
             font-size: 15px;
-            color: #2c1810;
-            background-color: #faf7f2;
+            color:rgb(0, 0, 0);
+         
         }
 
         input:focus, select:focus {
             outline: none;
-            border-color: #c17817;
+            border-color:rgb(0, 0, 0);
             box-shadow: 0 0 0 2px rgba(193, 120, 23, 0.1);
         }
 
@@ -80,11 +80,11 @@
             text-align: center;
             margin-top: 20px;
             font-size: 14px;
-            color: #8b4513;
+            color:rgb(0, 0, 0);
         }
 
         .form-footer a {
-            color: #c17817;
+            color:#FFE210;
             text-decoration: none;
             font-weight: 500;
         }
@@ -92,7 +92,7 @@
 </head>
 <body>
     <div class="form-container">
-        <h2 class="form-title">Create an account</h2>
+        <h2 class="form-title">créer un compte</h2>
         <form action="" method="POST">
             <div class="form-group">
                 <label for="nom">First name</label>
@@ -117,7 +117,6 @@
             <div class="form-group">
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password">
-                <p class="password-info">The password must contain at least 8 characters, including an uppercase letter, a number, and a special character.</p>
             </div>
 
             <div class="form-group">

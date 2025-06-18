@@ -13,8 +13,10 @@ include "../config/config.php";
 <body>
     <div class="test">
         <form method="post" class="login-form">
-            <h1>log in </h1>
+            <h1>Se connecter </h1>
+            <label for="">Email :</label>
             <input type="email" name="email" placeholder="Email" class="form-input">
+            <label for="">password :</label>
             <input type="password" name="password" placeholder="Mot de passe" class="form-input">
             <input type="submit" name="search" value="log in " class="submit-btn">
             <div class="form-footer">
@@ -52,7 +54,7 @@ include "../config/config.php";
     .submit-btn {
         width: 100%;
         padding: 12px;
-        background-color: #c17817;
+        background-color:#FFE210;
         color: white;
         border: none;
         border-radius: 4px;
@@ -61,18 +63,18 @@ include "../config/config.php";
     }
 
     .submit-btn:hover {
-        background-color: #c17817
+        background-color:#FFE210;
     }
 
     .form-footer {
         text-align: center;
         margin-top: 20px;
         font-size: 14px;
-        color: #8b4513;
+        color:rgb(0, 0, 0);
     }
 
     .form-footer a {
-        color: #c17817;
+        color:#FFE210;
         text-decoration: none;
         font-weight: 500;
     }
